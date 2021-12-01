@@ -6,14 +6,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="TableauScraper",
+    name="TableauScraperCalOES",
     version=version,
-    author="Bertrand Martel",
-    author_email="bmartel.fr@gmail.com",
+    author="Dara O'Beirne",
+    author_email="daraobeirne@gmail.com",
     description="Python library to scrape data from Tableau viz",
     long_description_content_type="text/markdown",
     long_description=long_description,
-    url="https://github.com/bertrandmartel/tableau-scraping",
+    url="https://github.com/daraobeirne/tableauscraping",
     packages=["tableauscraper"],
     license="MIT",
     classifiers=[
